@@ -53,4 +53,4 @@ int main(){
     cout << "sum =" << sumOfDigits(1234) << endl;
 
     return 0;
-}
+} 
