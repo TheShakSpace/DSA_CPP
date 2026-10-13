@@ -20,3 +20,10 @@ vector <int> pairSum(vector<int> nums, int target){
         }
     }
 }
+
+int main(){
+    vector <int> nums = {1,2,3,4,6};
+    int target = 6;
+    vector <int> ans = pairSum(nums, target);
+    cout << ans[0] << " " << ans[1] << endl;
+}
